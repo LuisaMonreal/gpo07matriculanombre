@@ -29,7 +29,7 @@ int main()
         cin.ignore();
         getline(cin, categoria);
         cout << "ingrese el precio unitario del articulo\n";
-        cin >> precio_unitario;
+        cin >> precio_unitario;  // como recomendacion cambiar el tipo de dato a float
         return main();
         break;
 
